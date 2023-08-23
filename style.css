@@ -1,0 +1,165 @@
+*{
+    margin: 0px; padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "sans-serif";
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    align-items: center;
+}
+a{
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#head{
+    display: flex;
+    justify-content: space-around;
+}
+#content{
+    height: 30rem;
+    width: 100%;
+    background: url(image/skyscrapers.jpg);
+    display: flex;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-bottom: 8rem;
+}
+h2,h4{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#main{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.three{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+}
+#aero{
+    height: 15rem;
+    width: 25rem;
+    background-image: url(image/hangar.jpg);
+    background-size: cover;
+    padding: 1rem;
+    flex-shrink: 2;
+}
+#drive{
+    height: 15rem;
+    width: 25rem;
+    background-image: url(image/dashboard.jpg);
+    background-size: cover;
+    padding: 1rem;
+    flex-shrink: 2;
+}
+#lane{
+    height: 15rem;
+    width: 25rem;
+    background-image: url(image/blurred-lights.webp);
+    background-size: cover;
+    padding: 1rem;
+    flex-shrink: 2;
+}
+#tier{
+    height: 15rem;
+    width: 25rem;
+    background-image: url(image/tires.jpg);
+    background-size: cover;
+    padding: 1rem;
+    flex-shrink: 2;
+}
+#truck{
+    height: 15rem;
+    width: 25rem;
+    background-image: url(image/truck.webp);
+    background-size: cover;
+    padding: 1rem;
+    flex-shrink: 5;
+}
+span{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+#back{
+    text-align: center;
+    margin: 1rem;
+}
+#ourteam{
+    height: 42rem;
+    width: 100%;
+    background-image: url(image/blurred-road.webp);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#one{
+    height: 30rem;
+    width: 20rem;
+    background-image: url(image/employee-one.webp);
+    background-size: cover;
+}
+#two{
+    height: 30rem;
+    width: 20rem;
+    background-image: url(image/employee-two.webp);
+    background-size: cover;
+}
+#three{
+    
+    height: 30rem;
+    width: 20rem;
+    background-image: url(image/employee-three.webp);
+    background-size: cover;  
+}
+.teammate{
+    margin-top: 1rem;
+    flex-basis: 28rem;
+}
+h3,p{
+    margin: 1rem;
+   color: white;
+}
+#footer{
+    text-align: center;
+    margin: 1rem;
+}
+#foot1{
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+}
+#f3{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+@media(max-width: 998px) {
+   html{
+         font-size: 8.8px;
+   }
+}
+@media(max-width: 768px) {
+    html{
+          font-size: 7.2px;
+    }
+}
+@media(max-width: 550px) {
+      html{
+    font-size: 5.5px;
+}
+}
